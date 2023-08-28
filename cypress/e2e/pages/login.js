@@ -1,6 +1,7 @@
 import { string } from "assert-plus";
 
 export class LoginPage {
+  
   username_field = '[data-test="username"]';
   password_field = '[data-test="password"]';
   login_button = "#login-button";
